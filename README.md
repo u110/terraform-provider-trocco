@@ -1,4 +1,4 @@
-# **This Repo is Not Original! TEST repository**
+# This Repo is Not Original! TEST repository
 
 # Terraform Provider for TROCCO (Terraform Plugin Framework)
 
