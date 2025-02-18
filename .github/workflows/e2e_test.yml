@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     # if the actor is not in team member, run the e2e tests
-    # if: ${{ github.actor != 'u110' }}
+    if: ${{ github.actor != 'u110' }}
     environment: test
     steps:
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
